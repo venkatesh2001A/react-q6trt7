@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
+import Login from './pages/login';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>hello venkatesh :)</p>
+      <Login />
     </div>
   );
 }
