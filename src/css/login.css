@@ -11,7 +11,7 @@ body {
 }
 
 .bgForm {
-  background: url('./Lighthouse.jpg') no-repeat;
+  /* background: url('./Lighthouse.jpg') no-repeat; */
   background-size: cover;
 }
 
