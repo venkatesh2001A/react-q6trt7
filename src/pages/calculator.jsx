@@ -1,10 +1,10 @@
 import React from 'react';
 import '../css/Calculator.css';
-function calcualtor({
+function Calcualtor( {
   return (
     <div class="wrap">
-      <div name="cal" id="form">
-        <input type="text" name="display" id="output">
+      <div name="cal" id="form"/>
+        <input type="text" name="display" id="output"/>
 
           <br /><br />
           <input type="button" value="1" onclick="display('1')" />
@@ -31,8 +31,8 @@ function calcualtor({
               <input type="button" value="=" style="width: 70%;border: 1px solid;" onclick="solve()" />
 
 
-              {/* </di/> */}
-            </div>
+               <div/> 
+            <div/>
             <script />
             function solve() {
               document.getElementById('output').value = eval(document.getElementById('output').value)
@@ -43,6 +43,6 @@ function calcualtor({
           </script>
         </body>
         );
-                  }
+         }
         
         export default Calculator
