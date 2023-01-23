@@ -1,4 +1,4 @@
-body {
+form.Signup {
   font-family: 'Se', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -7,7 +7,7 @@ body {
   height: 10px;
 }
 
-.formContainer {
+.Signup .formContainer {
   border: 1px solid red;
   height: 70vh;
   padding: 40px;
@@ -15,8 +15,8 @@ body {
   width: 50%;
 }
 
-input[type='text'],
-input[type='password'] {
+.Signup input[type='text'],
+.Signup input[type='password'] {
   width: 80%;
   font-size: 20px;
   padding: 30px;
@@ -26,25 +26,25 @@ input[type='password'] {
   background: lightgreen;
 }
 
-label {
+.Signup label {
   font-size: 20px;
 }
 
-input[type='text']:focus,
-input[type='password']:focus {
+.Signup input[type='text']:focus,
+.Signup input[type='password']:focus {
   background-color: #ddd;
   outline: none;
 }
 
-hr {
+.Signup hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 20px;
 }
 
-table {
+.Signup table {
   width: 100%;
 }
 
-th {
+.Signup th {
   height: 70px;
 }

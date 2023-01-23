@@ -2,8 +2,8 @@ import React from 'react';
 import '../css/signup.css';
 function Signup() {
   return (
-    <form>
-      <div class="formContainer">
+    <form className="Signup">
+      <div className="formContainer">
         <h1>Sign Up Form</h1>
 
         <br />
@@ -40,7 +40,6 @@ function Signup() {
           />
         </table>
       </div>
-      F{' '}
     </form>
   );
 }
