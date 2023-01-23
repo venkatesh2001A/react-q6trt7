@@ -1,0 +1,50 @@
+body {
+  font-family: 'Se', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  box-sizing: border-box width-200px;
+  height: 10px;
+}
+
+.formbody Container {
+  border: 1px solid red;
+  height: 70vh;
+  padding: 40px;
+  margin: 90px;
+  width: 50%;
+}
+
+input[type='text'],
+input[type='password'] {
+  width: 80%;
+  font-size: 20px;
+  padding: 30px;
+  margin: 20px;
+  /* display: inline-block; */
+  /* border: border; */
+  background: lightgreen;
+}
+
+label {
+  font-size: 20px;
+}
+
+input[type='text']:focus,
+input[type='password']:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  height: 70px;
+}
