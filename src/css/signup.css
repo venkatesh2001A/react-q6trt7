@@ -7,7 +7,7 @@ body {
   height: 10px;
 }
 
-.formbody Container {
+.formContainer {
   border: 1px solid red;
   height: 70vh;
   padding: 40px;

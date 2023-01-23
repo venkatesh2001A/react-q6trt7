@@ -7,8 +7,8 @@ import Signup from './pages/signup';
 export default function App() {
   return (
     <div>
-      <Login />
-      <Dummy />
+      {/* <Login />
+      <Dummy /> */}
 
       <Signup />
     </div>
