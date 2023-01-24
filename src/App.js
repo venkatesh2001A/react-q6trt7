@@ -3,6 +3,7 @@ import React from 'react';
 import Login from './pages/login';
 import Dummy from './pages/Dummy';
 import Signup from './pages/signup';
+import Calculator from './pages/Calculator';
 import { Routes, Route } from 'react-router-dom';
 // import Signup from './pages/Calculator';
 
@@ -14,10 +15,10 @@ export default function App() {
         <Route path="Dummy" element={<Dummy />} />
         <Route path="Signup" element={<Signup />} />
       </Routes>
-      {/* <Login />
+      <Login />
       <Dummy />
-      <Signup /> */}
-      {/* <Calculator /> */}
+      <Signup />
+      <calculator />
     </div>
   );
 }

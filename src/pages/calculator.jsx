@@ -42,7 +42,7 @@ function Calcualtor() {
 
       <div />
       <div />
-      <script>
+      {/* <script>
         function solve(){' '}
         {
           (document.getElementById('output').value = eval(
@@ -54,9 +54,9 @@ function Calcualtor() {
           (document.getElementById('output').value =
             document.getElementById('output').value + value)
         }
-      </script>
+      </script> */}
     </div>
   );
 }
 
-export default Calculator;
+export default Calcualtor;
