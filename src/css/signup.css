@@ -2,10 +2,10 @@ form.Signup {
   font-family: 'Se', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-* {
+/* * {
   box-sizing: border-box width-200px;
   height: 10px;
-}
+} */
 
 .Signup .formContainer {
   border: 1px solid red;

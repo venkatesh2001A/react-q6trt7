@@ -2,7 +2,7 @@ import React from 'react';
 import '../css/calculator.css';
 function Calculator() {
   return (
-    <div class="wrap">
+    <div className="wrap">
       <div name="cal" id="form" />
       <input type="text" name="display" id="output" />
 
@@ -37,7 +37,7 @@ function Calculator() {
 
       <div />
       <div />
-      {/* <script>
+      {/* /* <script>
         function solve(){' '}
         {
           (document.getElementById('output').value = eval(

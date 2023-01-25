@@ -12,13 +12,13 @@
 div .login-form {
   width: 350px;
   top: 50%;
-  left: 50%;
+  left: 30%;
   background-color: blue;
-  transform: translate(-50%, -50%);
-  position: absolute;
+  /* transform: translate(-50%, -50%); */
+  /* position: absolute; */
 }
 
-.login -form h1 {
+.login-form h1 {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;

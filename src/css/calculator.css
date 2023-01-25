@@ -1,8 +1,8 @@
-* {
+/* * {
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-}
+} */
 
 /* .wrap {
           width: 400px;
@@ -13,7 +13,7 @@
 
       } */
 
-input [type='text'] {
+input[type='text'] {
   width: 100px;
   padding: 10px;
   font-size: 24px;
