@@ -3,9 +3,8 @@ import React from 'react';
 import Login from './pages/login';
 import Dummy from './pages/Dummy';
 import Signup from './pages/signup';
-import Calculator from './pages/Calculator';
+import Calculator from './pages/calculator';
 import { Routes, Route } from 'react-router-dom';
-// import Signup from './pages/Calculator';
 
 export default function App() {
   return (
@@ -14,11 +13,12 @@ export default function App() {
         <Route path="Login" element={<Login />} />
         <Route path="Dummy" element={<Dummy />} />
         <Route path="Signup" element={<Signup />} />
+        <Route path="Calculator" element={<Calculator />} />
       </Routes>
       <Login />
       <Dummy />
       <Signup />
-      <calculator />
+      <Calculator />
     </div>
   );
 }

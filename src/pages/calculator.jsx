@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/Calculator.css';
-function Calcualtor() {
+import '../css/calculator.css';
+function Calculator() {
   return (
     <div class="wrap">
       <div name="cal" id="form" />
@@ -33,12 +33,7 @@ function Calcualtor() {
       <br />
       <br />
       <input type="button" value="AC" onclick="display('AC')" />
-      <input
-        type="button"
-        value="="
-        style="width: 70%;border: 1px solid;"
-        onclick="solve()"
-      />
+      <input type="button" value="=" onclick="solve()" />
 
       <div />
       <div />
@@ -59,4 +54,4 @@ function Calcualtor() {
   );
 }
 
-export default Calcualtor;
+export default Calculator;
