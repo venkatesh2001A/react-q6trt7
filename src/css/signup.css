@@ -12,12 +12,12 @@ form.Signup {
   height: 70vh;
   padding: 40px;
   margin: 90px;
-  width: 50%;
+  width: 60%;
 }
 
 .Signup input[type='text'],
 .Signup input[type='password'] {
-  width: 80%;
+  width: 90%;
   font-size: 20px;
   padding: 30px;
   margin: 20px;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Welcome from '../components/welcome';
+import Bye from '../components/bye';
 // import '../css/Dummy.css';
 // import Login from './pages/login'
 function Dummy() {
@@ -9,6 +10,7 @@ function Dummy() {
       <Welcome name="venkatesh"></Welcome>
       <Welcome name="surendra"></Welcome>
       <Welcome name="abi"></Welcome>
+      <Bye name="venkatesh"></Bye>
     </div>
   );
 }
