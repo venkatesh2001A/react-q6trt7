@@ -14,8 +14,10 @@ div .login-form {
   top: 50%;
   left: 30%;
   background-color: blue;
+  margin: auto;
   /* transform: translate(-50%, -50%); */
   /* position: absolute; */
+  text-align: center;
 }
 
 .login-form h1 {
@@ -48,7 +50,7 @@ div .login-form {
   border-radius: 5px;
   border: 0;
 }
-input[type='text'] {
+input[type='task'] {
   width: 350px;
   padding: 10px;
   font-size: 24px;
