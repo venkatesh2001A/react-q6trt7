@@ -10,7 +10,7 @@
 }  */
 
 div .login-form {
-  width: 350px;
+  width: 400px;
   top: 50%;
   left: 30%;
   background-color: blue;
@@ -26,15 +26,15 @@ div .login-form {
 }
 
 .login-form p {
-  font-size: 20px;
-  margin: 15px 0;
+  font-size: 40px;
+  margin: 5% 0;
 }
 
 .login-form input #a {
   font-size: 16px;
-  width: 100%;
+  width: 60%;
   padding: 15px 10px;
-  border: 0;
+  border: 40;
   outline: none;
   border-radius: 5px;
 }
@@ -44,7 +44,26 @@ div .login-form {
   font-weight: bold;
   margin: 20px 0;
   padding: 10px 15px;
-  width: 50%;
+  width: 60%;
   border-radius: 5px;
   border: 0;
+}
+input[type='text'] {
+  width: 350px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+input[type='password'] {
+  width: 350px;
+  padding: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 2px solid black;
 }

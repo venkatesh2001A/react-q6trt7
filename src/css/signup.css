@@ -9,15 +9,15 @@ form.Signup {
 
 .Signup .formContainer {
   border: 1px solid red;
-  height: 70vh;
-  padding: 40px;
+  height: 90vh;
+  padding: 50px;
   margin: 90px;
   width: 60%;
 }
 
 .Signup input[type='text'],
 .Signup input[type='password'] {
-  width: 90%;
+  width: 100%;
   font-size: 20px;
   padding: 30px;
   margin: 20px;

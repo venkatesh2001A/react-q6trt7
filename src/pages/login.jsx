@@ -7,7 +7,7 @@ function Login() {
       <p>User Name</p>
       <input type="text" name="user" id="a" placeholder="User Name" />
       <p>Password</p>
-      <input type="passsword" id="a" name="password" placeholder="Password" />
+      <input type="password" id="a" name="password" placeholder="Password" />
       <br />
       <br />
       <button type="submit">login </button>
