@@ -21,13 +21,11 @@ function Nav() {
           {' '}
           <NavLink to="/Dummy">Dummy</NavLink>
         </li>
-        
+
         <li class="style">
           {' '}
-        {/* <li class="style">
-          {' '}
-          <a href="">phone no</a>
-        </li> */}
+          <NavLink to="/employeelist">Employeelist</NavLink>
+        </li>
       </ul>
     </div>
   );

@@ -3,7 +3,10 @@ import '../css/employeelist.css';
 function Employeelist() {
   return (
     <div className="card">
-      <img src="id.jpg" alt="employee" style="width:100%" />
+      <img
+        src="https://www.olympus-imaging.co.in/content/000107507.jpg"
+        alt="employee"
+      />
       <div className="container">
         <h4>
           <b>venkatesh</b>

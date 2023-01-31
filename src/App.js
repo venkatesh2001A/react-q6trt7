@@ -12,8 +12,9 @@ export default function App() {
   return (
     <div>
       <Nav />
-      
+
       <Routes>
+        <Route path="" element={<Calculator />} />
         <Route path="Login" element={<Login />} />
         <Route path="Dummy" element={<Dummy />} />
         <Route path="Signup" element={<Signup />} />
