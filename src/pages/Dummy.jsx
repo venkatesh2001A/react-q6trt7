@@ -9,7 +9,8 @@ function Dummy() {
       <p> Dummy</p>
       <Welcome name="venkatesh"></Welcome>
       <Welcome name="surendra"></Welcome>
-      <Welcome name="abi"></Welcome>
+      <Welcome name="tharsan"></Welcome>
+
       <Bye name="venkatesh"></Bye>
     </div>
   );
