@@ -22,10 +22,14 @@ function Nav() {
           <NavLink to="/Dummy">Dummy</NavLink>
         </li>
 
-        {/* <li className="style">
+        <li className="style">
           {' '}
           <NavLink to="/Employeeid">Employeeid</NavLink>
-        </li> */}
+        </li>
+        <li className="style">
+          {' '}
+          <NavLink to="/Counter">Counter</NavLink>
+        </li>
       </ul>
     </div>
   );
