@@ -1,0 +1,24 @@
+.counter {
+  margin: 25% 0;
+  text-align: center;
+}
+.bndec {
+  background-color: blueviolet;
+  display: inline;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+.countnum {
+  /* background-color: blueviolet; */
+  display: inline;
+  text-align: center;
+  font-size: 22px;
+}
+.bninc {
+  background-color: blueviolet;
+  display: inline;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
