@@ -1,5 +1,6 @@
 form.Signup {
   font-family: 'Se', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px 0;
 }
 
 /* * {
@@ -9,18 +10,18 @@ form.Signup {
 
 .Signup .formContainer {
   border: 1px solid red;
-  height: 90vh;
+  height: 525px;
   padding: 50px;
-  margin: 90px;
-  width: 60%;
+  margin: 0 auto;
+  width: 50%;
 }
 
 .Signup input[type='text'],
 .Signup input[type='password'] {
   width: 100%;
-  font-size: 20px;
-  padding: 30px;
-  margin: 20px;
+  font-size: 12px;
+  padding: 20px;
+  /* margin: 20px; */
   /* display: inline-block; */
   /* border: border; */
   background: lightgreen;
