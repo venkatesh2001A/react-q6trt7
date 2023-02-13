@@ -9,11 +9,12 @@ form.Signup {
 } */
 
 .Signup .formContainer {
-  border: 1px solid red;
+  border: 1px solid rgb(56, 50, 50);
   height: 525px;
   padding: 50px;
   margin: 0 auto;
   width: 50%;
+  background-color: #003334;
 }
 
 .Signup input[type='text'],
