@@ -1,17 +1,40 @@
 import React from 'react';
 import '../css/login.css';
+import {useForm} from react-hook-form;
+
 function Login() {
+  const {
+    register,
+    handlesubmit,
+    formState:{errors},
+  }=useForm()
+  const submit = (data) => {
+    console.log(data)
+  }
   return (
-    <div className="login-form">
-      <h1> Login-form</h1>
-      <p>User Name</p>
-      <input type="task" name="user" id="a" placeholder="User Name" />
-      <p>Password</p>
-      <input type="password" id="a" name="password" placeholder="Password" />
-      <br />
-      <br />
-      <button type="submit">login </button>
+    <div className="login">
+     {/* <div className="login"> */}
+      <form onSubmit={handleSubmit(submit)} className="loginform">
+        Login
+        <input
+          type="text"
+          {...register('username', { required: true, minLength: 3 })}
+          id="logintext"
+          placeholder="abc@gmail.com"
+        />
+        {errors.username && errors.username.type === 'required' && (
+          <small>username is required</small>
+        )}
+        {errors.username && errors.username.type === 'minLength' && (
+          <small>username should have atleast 3 characters</small>
+        )}
+        Password
+        <input type="password" {...register('pass')} id="pass" />
+        <div className="b1">
+          <button id="b">submit</button>
+        </div>
+      </form>
     </div>
-  );
+  )
 }
-export default Login;
+export default Login
