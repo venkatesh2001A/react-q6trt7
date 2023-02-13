@@ -72,3 +72,9 @@ input[type='password'] {
   border-radius: 5px;
   border: 2px solid black;
 }
+.star {
+  font-size: 30px;
+}
+.again {
+  font-size: 30px;
+}

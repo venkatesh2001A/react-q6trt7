@@ -15,12 +15,12 @@ function Login() {
     <div className="login-form">
       {/* <div className="login"> */}
       <form onSubmit={handleSubmit(submit)} className="loginform">
-        Login
+        <label className="star">Login</label>
         <input
           type="task"
           {...register('username', { required: true, minLength: 3 })}
           id="logintext"
-          placeholder="abc@gmail.com"
+          placeholder="hello@gmail.com"
         />
         {errors.username && errors.username.type === 'required' && (
           <small>username is required</small>
@@ -28,7 +28,7 @@ function Login() {
         {errors.username && errors.username.type === 'minLength' && (
           <small>username should have atleast 3 characters</small>
         )}
-        Password
+        <div className="again">Password</div>
         <input type="password" {...register('pass')} id="a" />
         <div className="b1">
           <button id="b">submit</button>
