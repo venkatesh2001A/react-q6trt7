@@ -15,7 +15,9 @@ function Login() {
     <div className="login-form">
       {/* <div className="login"> */}
       <form onSubmit={handleSubmit(submit)} className="loginform">
-        <label className="star">Login</label>
+        <label className="star">
+          <i class="fa-thin fa-hurricane"></i> Login
+        </label>
         <input
           type="task"
           {...register('username', { required: true, minLength: 3 })}

@@ -11,9 +11,10 @@
 
 div .login-form {
   width: 500px;
-  top: 40%;
+  top: 40%; HE
   left: 70%;
-  background-color: #c1a2d3;
+  /* background-color: #c1a2d3; */
+  background-color: #ffb07e;
   /* margin: auto; */
   /* transform: translate(-50%, -50%); */
   /* position: absolute; */
@@ -21,6 +22,7 @@ div .login-form {
   padding: 80px;
   margin: auto;
   margin-block: 50px;
+  border-radius: 10px;
 }
 
 .login-form h1 {
