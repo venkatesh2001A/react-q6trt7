@@ -7,33 +7,33 @@ function Nav() {
       <ul className=" sub">
         <li className="style">
           {' '}
-          <i class="fa fa-user"></i>
+          <i class="fa fa-user icon"></i>
           <NavLink to="/login">Login </NavLink>{' '}
         </li>
         <li className="style">
           {' '}
-          <i class="fa fa-user"></i>
+          <i class="fa fa-user icon"></i>
           <NavLink to="/signup">Signup</NavLink>
         </li>
         <li className="style">
           {' '}
-          <i class="fa fa-user"></i>
+          <i class="fa fa-user icon"></i>
           <NavLink to="/calculator">Calculator</NavLink>
         </li>
         <li className="style">
           {' '}
-          <i class="fa fa-user"></i>
+          <i class="fa fa-user icon"></i>
           <NavLink to="/Dummy">Dummy</NavLink>
         </li>
 
         <li className="style">
           {' '}
-          <i class="fa fa-user"></i>
+          <i class="fa fa-user icon"></i>
           <NavLink to="/Employeeid">Employeeid</NavLink>
         </li>
         <li className="style">
           {' '}
-          <i class="fa fa-user"></i>
+          <i class="fa fa-user icon"></i>
           <NavLink to="/Counter">Counter</NavLink>
         </li>
       </ul>

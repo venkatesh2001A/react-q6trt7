@@ -34,7 +34,10 @@ function Signup() {
           <i class="fa fa-user"></i>Password
         </div>
         <input type="password" {...register('pass')} id="ab" />
-        <div className="b1">Retype password</div>
+        <div className="b1">
+          <i class="fa fa-user"></i>
+          Retype password
+        </div>
         <input
           type="password"
           ClassName="retype password"
