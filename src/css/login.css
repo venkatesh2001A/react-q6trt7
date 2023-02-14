@@ -11,7 +11,7 @@
 
 div .login-form {
   width: 500px;
-  top: 40%; HE
+  top: 40%;
   left: 70%;
   /* background-color: #c1a2d3; */
   background-color: #ffb07e;
@@ -61,6 +61,7 @@ input[type='task'] {
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 5px;
   border: 2px solid black;
 }

@@ -16,7 +16,7 @@ function Login() {
       {/* <div className="login"> */}
       <form onSubmit={handleSubmit(submit)} className="loginform">
         <label className="star">
-          <i class="fa-thin fa-hurricane"></i> Login
+          <i class="fa fa-user"></i> Login
         </label>
         <input
           type="task"
@@ -30,7 +30,9 @@ function Login() {
         {errors.username && errors.username.type === 'minLength' && (
           <small>username should have atleast 3 characters</small>
         )}
-        <div className="again">Password</div>
+        <label className="star">
+          <i class="fa fa-user"></i> Password
+        </label>
         <input type="password" {...register('pass')} id="a" />
         <div className="b1">
           <button id="b">submit</button>

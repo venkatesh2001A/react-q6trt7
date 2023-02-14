@@ -10,16 +10,17 @@ form.Signup {
 
 .Signup .formContainer {
   border: 1px solid rgb(56, 50, 50);
-  height: 525px;
+  height: 52px;
   padding: 50px;
-  margin: 0 auto;
+  margin: 3 auto;
   width: 50%;
-  background-color: #003334;
+  background-color: #52b652;
+  text-align: center;
 }
 
 .Signup input[type='text'],
 .Signup input[type='password'] {
-  width: 100%;
+  width: 10%;
   font-size: 12px;
   padding: 20px;
   /* margin: 20px; */
@@ -44,7 +45,7 @@ form.Signup {
 }
 
 .Signup table {
-  width: 100%;
+  width: 200%;
 }
 
 .Signup th {
