@@ -1,4 +1,4 @@
-form.Signup {
+form.signup {
   font-family: 'Se', Tahoma, Geneva, Verdana, sans-serif;
   margin: 10px 0;
 }
@@ -8,46 +8,67 @@ form.Signup {
   height: 10px;
 } */
 
-.Signup .formContainer {
-  border: 1px solid rgb(56, 50, 50);
-  height: 52px;
+.signup .formContainer {
+  border: 1px solid #1e241e;
+  height: 74vh;
   padding: 50px;
-  margin: 3 auto;
+  /* margin: 90px; */
   width: 50%;
-  background-color: #52b652;
+  background-color: #8e7a96;
   text-align: center;
+  margin: 2px auto;
+  /* margin-block: 50px; */
+  border-radius: 10px;
+  margin-top: 40px;
 }
 
-.Signup input[type='text'],
-.Signup input[type='password'] {
-  width: 10%;
+.signup input[type='text'] {
+  width: 90%;
   font-size: 12px;
   padding: 20px;
   /* margin: 20px; */
   /* display: inline-block; */
   /* border: border; */
-  background: lightgreen;
+  /* background: coral; */
 }
-
-.Signup label {
+.signup input[type='password'] {
+  width: 90%;
+  font-size: 12px;
+  padding: 20px;
+  /* margin: 20px; */
+  /* display: inline-block; */
+  /* border: border; */
+  /* background: coral; */
+}
+.signup label {
   font-size: 20px;
+  text-align: center;
 }
 
-.Signup input[type='text']:focus,
-.Signup input[type='password']:focus {
+.signup input[type='text']:focus,
+.signup input[type='password']:focus {
   background-color: #ddd;
   outline: none;
 }
 
-.Signup hr {
+.signup hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 20px;
 }
 
-.Signup table {
+.signup table {
   width: 200%;
 }
 
-.Signup th {
+.signup th {
   height: 70px;
+}
+.signup button {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 40px 0;
+  padding: 10px 15px;
+  width: 60%;
+  border-radius: 5px;
+  border: 0;
 }

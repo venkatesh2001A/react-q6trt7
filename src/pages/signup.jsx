@@ -14,12 +14,12 @@ function Signup() {
   return (
     <div className="signup">
       {/* <div className="login"> */}
-      <form onSubmit={handleSubmit(submit)} className="formcontainer">
+      <form onSubmit={handleSubmit(submit)} className="formContainer">
         <label className="light">
-          <i class="fa-thin fa-hurricane"></i> Login
+          <i class="fa fa-user"></i> Signup
         </label>
         <input
-          type="hall"
+          type="text"
           {...register('username', { required: true, minLength: 3 })}
           id="logintext"
           placeholder="hello@gmail.com"
@@ -30,10 +30,17 @@ function Signup() {
         {errors.username && errors.username.type === 'minLength' && (
           <small>username should have atleast 3 characters</small>
         )}
-        <div className="room">Password</div>
+        <div className="room">
+          <i class="fa fa-user"></i>Password
+        </div>
         <input type="password" {...register('pass')} id="ab" />
         <div className="b1">Retype password</div>
-        <input ClassName="retype password" {...register('pass')} id="ac" />
+        <input
+          type="password"
+          ClassName="retype password"
+          {...register('repass')}
+          id="ac"
+        />
         <div className="s1">
           <button id="bye">submit</button>
         </div>
