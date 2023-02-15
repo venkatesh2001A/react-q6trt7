@@ -6,7 +6,6 @@ function Nav() {
     <div className="content">
       <ul className=" sub">
         <li className="style">
-          {' '}
           <NavLink to="/login">
             <i class="fa fa-user icon"></i> Login{' '}
           </NavLink>{' '}
