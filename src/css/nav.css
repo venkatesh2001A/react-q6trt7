@@ -32,9 +32,9 @@ a {
   background-color: aqua;
 } */
 nav.navbar {
-  background-color: #895575;
+  background-color: coral;
   /* height: 55px; */
-  padding: 10px;
+  padding: 30px;
   margin: 0px;
   text-align: right;
 }

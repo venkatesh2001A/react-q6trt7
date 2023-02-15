@@ -9,25 +9,25 @@ function Nav() {
         <i className="fa fa-bars icon"></i>
       </button>
       <NavLink to="/login">
-        <i className="fa fa-user-circle-o"></i> Login
+        <i className="fa fa-user-circle-o icon"></i>Login
       </NavLink>
       <NavLink to="/signup">
-        <i class="fa fa-user icon"></i> Signup
+        <i class="fa fa-user-plus icon"></i>Signup
       </NavLink>
       <NavLink to="/calculator">
-        <i class="fa fa-user icon"></i>
+        <i class="fa fa-calculator icon"></i>
         Calculator
       </NavLink>
       <NavLink to="/Dummy">
-        <i class="fa fa-user icon"></i>
+        <i class="fa fa-podcast icon"></i>
         Dummy
       </NavLink>
       <NavLink to="/Employeeid">
-        <i class="fa fa-user icon"></i>
+        <i class="fa fa-id-card icon"></i>
         Employeeid
       </NavLink>
       <NavLink to="/Counter">
-        <i class="fa fa-user icon"></i>
+        <i class="fa fa-dot-circle-o icon"></i>
         Counter
       </NavLink>
     </nav>
