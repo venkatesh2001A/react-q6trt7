@@ -31,3 +31,44 @@ a {
 /* a.active {
   background-color: aqua;
 } */
+nav.navbar {
+  background-color: #895575;
+  /* height: 55px; */
+  padding: 10px;
+  margin: 0px;
+  text-align: right;
+}
+
+nav.navbar a {
+  text-decoration: none;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  position: inherit;
+}
+nav button {
+  display: none;
+}
+@media screen and (max-width: 743px) {
+  nav button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 0px;
+    width: 30px;
+    display: inline-block;
+  }
+  nav.navbar {
+    text-align: left;
+  }
+  nav.navbar a {
+    display: none;
+    width: 340px;
+  }
+  nav.navbar a:nth-child(2) {
+    display: block;
+  }
+  nav.navbar.expand1 a {
+    display: block;
+  }
+}

@@ -1,52 +1,36 @@
 import React from 'react';
-import '../css/nav.css';
 import { NavLink } from 'react-router-dom';
+import '../css/nav.css';
 function Nav() {
+  const [expand, setExpand] = React.useState(false);
   return (
-    <div className="content">
-      <ul className=" sub">
-        <li className="style">
-          <NavLink to="/login">
-            <i class="fa fa-user icon"></i> Login{' '}
-          </NavLink>{' '}
-        </li>
-        <li className="style">
-          {' '}
-          <NavLink to="/signup">
-            <i class="fa fa-user icon"></i> Signup
-          </NavLink>
-        </li>
-        <li className="style">
-          {' '}
-          <NavLink to="/calculator">
-            <i class="fa fa-user icon"></i>
-            Calculator
-          </NavLink>
-        </li>
-        <li className="style">
-          {' '}
-          <NavLink to="/Dummy">
-            <i class="fa fa-user icon"></i>
-            Dummy
-          </NavLink>
-        </li>
-
-        <li className="style">
-          {' '}
-          <NavLink to="/Employeeid">
-            <i class="fa fa-user icon"></i>
-            Employeeid
-          </NavLink>
-        </li>
-        <li className="style">
-          {' '}
-          <NavLink to="/Counter">
-            <i class="fa fa-user icon"></i>
-            Counter
-          </NavLink>
-        </li>
-      </ul>
-    </div>
+    <nav className={expand ? 'expand1 navbar' : 'navbar'}>
+      <button onClick={() => setExpand(!expand)}>
+        <i className="fa fa-bars icon"></i>
+      </button>
+      <NavLink to="/login">
+        <i className="fa fa-user-circle-o"></i> Login
+      </NavLink>
+      <NavLink to="/signup">
+        <i class="fa fa-user icon"></i> Signup
+      </NavLink>
+      <NavLink to="/calculator">
+        <i class="fa fa-user icon"></i>
+        Calculator
+      </NavLink>
+      <NavLink to="/Dummy">
+        <i class="fa fa-user icon"></i>
+        Dummy
+      </NavLink>
+      <NavLink to="/Employeeid">
+        <i class="fa fa-user icon"></i>
+        Employeeid
+      </NavLink>
+      <NavLink to="/Counter">
+        <i class="fa fa-user icon"></i>
+        Counter
+      </NavLink>
+    </nav>
   );
 }
 export default Nav;
