@@ -30,6 +30,10 @@ function Nav() {
         <i class="fa fa-dot-circle-o icon"></i>
         Counter
       </NavLink>
+      <NavLink to="/Pagination">
+        <i class="fa fa-dot-circle-o icon"></i>
+        Pagination
+      </NavLink>
     </nav>
   );
 }

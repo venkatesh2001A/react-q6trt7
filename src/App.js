@@ -7,6 +7,7 @@ import Calculator from './pages/calculator';
 import Nav from './components/nav';
 import Employeeid from './pages/employeeid';
 import Counter from './pages/counter';
+import Pagination from '/pages/Pagination';
 import { Routes, Route } from 'react-router-dom';
 // import { Routes, Route } from 'react-hook-form';
 
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="Calculator" element={<Calculator />} />
         <Route path="Employeeid" element={<Employeeid />} />
         <Route path="Counter" element={<Counter />} />
+        <Route path="Pagination" element={<Pagination />} />
       </Routes>
       {/* <Login />
       <Dummy />
