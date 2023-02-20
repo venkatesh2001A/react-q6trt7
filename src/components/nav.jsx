@@ -30,10 +30,10 @@ function Nav() {
         <i class="fa fa-dot-circle-o icon"></i>
         Counter
       </NavLink>
-      {/* <NavLink to="/Pagination">
+      <NavLink to="/Pagination">
         <i class="fa fa-dot-circle-o icon"></i>
-        Pagination */}
-      {/* </NavLink> */}
+        Pagination
+      </NavLink>
     </nav>
   );
 }
