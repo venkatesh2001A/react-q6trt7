@@ -1,8 +1,8 @@
 .card {
-  border: 4px solid blue;
+  border: 4px solid #000000;
   border-radius: 10px;
   display: inline-block;
-  background-color: yellowgreen;
+  background-color: lightsteelblue;
   margin-right: 9px;
   padding: 5px;
   font-family: cursive;
