@@ -6,6 +6,7 @@ import Signup from './pages/signup';
 import Calculator from './pages/calculator';
 import Nav from './components/nav';
 import Employeeid from './pages/employeeid';
+import Detail from './pages/employeedetail';
 import Counter from './pages/counter';
 import Pagination from './pages/pagination';
 import { Routes, Route } from 'react-router-dom';
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="Signup" element={<Signup />} />
         <Route path="Calculator" element={<Calculator />} />
         <Route path="Employeeid" element={<Employeeid />} />
+        {/* <Route path="Detail" element={<Detail />} /> */}
         <Route path="Counter" element={<Counter />} />
         <Route path="Pagination" element={<Pagination />} />
       </Routes>

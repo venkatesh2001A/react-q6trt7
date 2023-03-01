@@ -23,15 +23,18 @@ function Nav() {
         Dummy
       </NavLink>
       <NavLink to="/Employeeid">
-        <i class="fa fa-id-card icon"></i>
+        <i class="fa fa-user-o icon"></i>
         Employeeid
+      </NavLink>
+      <NavLink to="/Employee detail">
+        <i className="fa fa-id-card icon"></i>Emplotee detail
       </NavLink>
       <NavLink to="/Counter">
         <i class="fa fa-dot-circle-o icon"></i>
         Counter
       </NavLink>
       <NavLink to="/Pagination">
-        <i class="fa fa-dot-circle-o icon"></i>
+        <i class="fa fa-file-powerpoint-o icon"></i>
         Pagination
       </NavLink>
     </nav>
