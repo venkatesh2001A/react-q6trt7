@@ -13,20 +13,65 @@ function Details() {
       
       <table className="www">
         <ul className="cro">
-          <li>Name <span className="set">:</span></li>
-          <li>Age<span className="set">:</span></li>
-          <li>Email<span className="set">:</span></li>
-          <li>Street<span className="set">:</span><li>
-          <li>City<span className="set">:</span></li>
-          <li>Zip<span className="set">:</span></li>
-          <li>Region<span className="set">:</span></li>
-          <li>Country<span className="set">:</span></li>
-          <li>Employee Id<span className="set">:</span></li>
-          <li>Info<span className="set">:</span></li>
-          <li>Date of Joining<span className="set">:</span></li>
-          <li>Mobile Number<span className="set">:</span></li>
-      </ul>
-      </li>
+          <tbody>
+            <tr>
+              <td className="say">name</td>
+              <td className="byy">{employee.Name}</td>
+              </tr>
+              <tr>
+              <td className="say">age</td>
+              <td className="byy">{employee.Age}</td>
+              </tr>
+              <tr>
+              <td className="say">email</td>
+              <td className="byy">{employee.Email}</td>
+              </tr>
+              <tr>
+              <td className="say">street</td>
+              <td className="byy">{employee.Street}</td>
+              </tr>
+              <tr>
+              <td className="say">city</td>
+              <td className="byy">{employee.City}</td>
+              </tr>
+              <tr>
+              <td className="say">zip</td>
+              <td className="byy">{employee.Zip}</td>
+              </tr>
+              <tr>
+              <td className="say">region</td>
+              <td className="byy">{employee.Region}</td>
+              </tr>
+              <tr>
+              <td className="say">country</td>
+              <td className="byy">{employee.Country}</td>
+              </tr>
+              <tr>
+              <td className="say">info</td>
+              <td className="byy">{employee.Info}</td>
+              </tr>
+              <tr>
+              <td className="say">employee id</td>
+              <td className="byy">{employee.Employeeid}</td>
+              </tr>
+              {/* <tr>
+              <td className="say">employee id</td>
+              <td className="byy">{employee.EmployeeId}</td>
+              </tr> */}
+              <tr>
+              <td className="say">date of joining</td>
+              <td className="byy">{employee["Date of Joining"]}</td>
+              </tr>
+              <tr>
+              <td className="say">phone number</td>
+              <td className="byy">{employee["phone number"]}</td>
+              </tr>
+
+
+
+
+              {/* </tr> */}
+
       </table>
       </div>
   );
