@@ -1,4 +1,5 @@
 import React from 'react';
+import n from "../css/detail.css";
 import '../css/employeedetail.css';
 function Details() {
   return (
