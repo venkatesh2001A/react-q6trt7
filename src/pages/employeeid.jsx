@@ -1,4 +1,5 @@
 import React from 'react';
+import n from '../css/detail.css';
 import '../css/Employeeid.css';
 import profile from '../assets/profile.jpg';
 
