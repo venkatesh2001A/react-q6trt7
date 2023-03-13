@@ -8,8 +8,8 @@ function Dummy() {
     <div>
       <p> Dummy</p>
       <Welcome name="venkatesh"></Welcome>
-      <Welcome name="surendra"></Welcome>
-      <Welcome name="tharsan"></Welcome>
+      <Welcome name="Rubini"></Welcome>
+      <Welcome name="Abarna"></Welcome>
 
       <Bye name="venkatesh"></Bye>
     </div>
