@@ -22,13 +22,13 @@ function Nav() {
         <i class="fa fa-podcast icon"></i>
         Dummy
       </NavLink>
-      <NavLink to="/Employeeid">
+      {/* <NavLink to="/Employeeid">
         <i class="fa fa-user-o icon"></i>
         Employeeid
-      </NavLink>
-      <NavLink to="/Employee detail">
+      </NavLink> */}
+      {/* <NavLink to="/Employee detail">
         <i className="fa fa-id-card icon"></i>Emplotee detail
-      </NavLink>
+      </NavLink> */}
       <NavLink to="/Counter">
         <i class="fa fa-dot-circle-o icon"></i>
         Counter
